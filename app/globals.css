@@ -20,6 +20,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.outline-text{
+    color: #7E1525;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #7E1525;
+}
+
 @layer components {
   .flex-between {
     @apply flex justify-between items-center;
@@ -34,6 +41,9 @@ body {
 @layer utilities {
   .heading-text{
     @apply text-xxxl text-cream-400 font-[900] pb-3; 
+  }
+  .heading2-text{
+    @apply text-xxl text-red-600 font-[900] uppercase;
   }
   .text-balance {
     text-wrap: balance;
