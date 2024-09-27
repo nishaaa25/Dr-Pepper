@@ -20,16 +20,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer components{
-  .flex-between{
+@layer components {
+  .flex-between {
     @apply flex justify-between items-center;
   }
-  .flex-center{
+  .flex-center {
     @apply flex place-items-center;
   }
-
+  .container {
+    @apply relative w-screen overflow-x-hidden px-8 pt-[56px] bg-red-700;
+  }
 }
 @layer utilities {
+  .heading-text{
+    @apply text-xxxl text-cream-400 font-[900] pb-3; 
+  }
   .text-balance {
     text-wrap: balance;
   }

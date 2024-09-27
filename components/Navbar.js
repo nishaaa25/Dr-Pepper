@@ -3,7 +3,7 @@ import LogoIcon from "@/components/LogoIcon";
 
 export default function Navbar() {
   return (
-    <div className="flex-between bg-red-600 px-3 md:px-8 lg:px-10 py-2 ">
+    <div className="flex-between bg-red-700 px-3 md:px-8 lg:px-10 py-2 ">
       <div>
         <LogoIcon width={110} height={70} color="#f5ddd2" />
       </div>
