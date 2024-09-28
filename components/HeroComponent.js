@@ -3,7 +3,7 @@ import asset0 from "../app/assets/asset 0.png";
 
 export default function HeroComponent() {
   return (
-    <div className="container min-h-[90vh] ">
+    <div className="container bg-red-700 min-h-[90vh] ">
       <div className="relative w-full">
         <p className="heading-text pl-[74px]">TREAT</p>
         <p className="heading-text">YOURSELF </p>

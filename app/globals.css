@@ -14,6 +14,10 @@
   }
 }
 
+.rotate-custom{
+  transform: rotateY('45deg');
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -26,6 +30,12 @@ body {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #7E1525;
 }
+.outline-text-2{
+  color: #f5ddd2;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #f5ddd2;
+}
 
 @layer components {
   .flex-between {
@@ -35,7 +45,7 @@ body {
     @apply flex place-items-center;
   }
   .container {
-    @apply relative w-screen overflow-x-hidden px-8 pt-[56px] bg-red-700;
+    @apply relative w-screen overflow-x-hidden px-8 pt-[56px];
   }
 }
 @layer utilities {
@@ -44,6 +54,9 @@ body {
   }
   .heading2-text{
     @apply text-xxl text-red-600 font-[900] uppercase;
+  }
+  .heading2-creamtext{
+    @apply text-xxl font-[900] uppercase;
   }
   .text-balance {
     text-wrap: balance;
