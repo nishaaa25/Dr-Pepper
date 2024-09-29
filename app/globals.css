@@ -14,27 +14,69 @@
   }
 }
 
-.rotate-custom{
-  transform: rotateY('45deg');
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.outline-text{
-    color: #7E1525;
-    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #7E1525;
+.outline-text {
+  color: #7e1525;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7e1525;
 }
-.outline-text-2{
+.outline-text-2 {
   color: #f5ddd2;
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #f5ddd2;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.animate-marquee2 {
+  animation: marquee2 28s linear infinite;
+}
+@keyframes marquee3 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes marquee4 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.animate-marquee3 {
+  animation: marquee3 28s linear infinite;
+}
+.animate-marquee4 {
+  animation: marquee4 28s linear infinite;
 }
 
 @layer components {
@@ -49,14 +91,14 @@ body {
   }
 }
 @layer utilities {
-  .heading-text{
-    @apply text-xxxl text-cream-400 font-[900] pb-3; 
+  .heading-text {
+    @apply text-xxxl text-cream-400 font-[900] pb-3;
   }
-  .heading2-text{
+  .heading2-text {
     @apply text-xxl text-red-600 font-[900] uppercase;
   }
-  .heading2-creamtext{
-    @apply text-xxl font-[900] uppercase;
+  .heading2-creamtext {
+    @apply text-xxl font-[900] uppercase text-cream-400;
   }
   .text-balance {
     text-wrap: balance;

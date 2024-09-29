@@ -22,9 +22,9 @@ export default function ProductOne() {
           The original Dr Pepper has always been extra.
         </p>
       </div>
-      <div className="absolute bottom-[10%] left-[32%] inline-block uppercase rounded-[100%] border border-cream-400 px-10 py-20 transform rotate-[-14deg]">
+      <div className="absolute bottom-[5%] left-[32%] inline-block uppercase rounded-[100%] border border-cream-400 px-10 py-20 transform rotate-[-14deg]">
         <div className="flex justify-center items-center gap-2">
-          <p className="font-[900] text-2xl">
+          <p className="font-[900] text-2xl text-center">
             Sip Some <br />
             Flavour
           </p>
