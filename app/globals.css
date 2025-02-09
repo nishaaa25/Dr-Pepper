@@ -86,9 +86,9 @@ body {
   .flex-center {
     @apply flex place-items-center;
   }
-  .container {
+  /* .container {
     @apply relative w-screen overflow-x-hidden px-8 pt-[56px];
-  }
+  } */
 }
 @layer utilities {
   .heading-text {

@@ -4,7 +4,7 @@ import RightArrowIcon from "../IconComponents/RightArrowIcon";
 
 export default function ProductTwo() {
   return (
-    <div className="container h-screen flex pt-[132px] px-[40px] overflow-hidden text-cream-400 bg-gradient-to-b from-black from-[60%] to-red-600">
+    <div className="relative w-screen h-screen flex pt-[132px] px-[40px] overflow-hidden text-cream-400 bg-gradient-to-b from-black from-[60%] to-red-600">
       <div className="relative">
         <Image src={asset1} alt="peppercan" width={200} />
       </div>

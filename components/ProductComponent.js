@@ -7,43 +7,43 @@ export default function ProductComponent() {
     <div>
       <ProductOne />
       <div className="relative flex overflow-x-hidden text-black border-y border-cream-400 bg-gradient-to-b from-[#BB2033] to-red-600">
-        <div class="py-10 animate-marquee whitespace-nowrap">
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
+        <div className="py-10 animate-marquee whitespace-nowrap">
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
         </div>
-        <div class="absolute top-0 py-10 animate-marquee2 whitespace-nowrap">
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-        </div>
-      </div>
-      <div className="relative flex overflow-x-hidden text-black border-y border-cream-400 bg-gradient-to-b from-[#BB2033] to-red-600">
-        <div class="py-10 animate-marquee3 whitespace-nowrap">
-          <span class="heading2-creamtext mx-2">Are you hypnotized yet?</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-        </div>
-        <div class="absolute top-0 py-10 animate-marquee4 whitespace-nowrap">
-          <span class="heading2-creamtext mx-2">Are you hypnotized yet?</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
+        <div className="absolute top-0 py-10 animate-marquee2 whitespace-nowrap">
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
         </div>
       </div>
       <div className="relative flex overflow-x-hidden text-black border-y border-cream-400 bg-gradient-to-b from-[#BB2033] to-red-600">
-        <div class="py-10 animate-marquee whitespace-nowrap">
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
+        <div className="py-10 animate-marquee3 whitespace-nowrap">
+          <span className="heading2-creamtext mx-2">Are you hypnotized yet?</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
         </div>
-        <div class="absolute top-0 py-10 animate-marquee2 whitespace-nowrap">
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
-          <span class="heading2-creamtext mx-2">More is More.</span>
+        <div className="absolute top-0 py-10 animate-marquee4 whitespace-nowrap">
+          <span className="heading2-creamtext mx-2">Are you hypnotized yet?</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+        </div>
+      </div>
+      <div className="relative flex overflow-x-hidden text-black border-y border-cream-400 bg-gradient-to-b from-[#BB2033] to-red-600">
+        <div className="py-10 animate-marquee whitespace-nowrap">
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+        </div>
+        <div className="absolute top-0 py-10 animate-marquee2 whitespace-nowrap">
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
+          <span className="heading2-creamtext mx-2">More is More.</span>
         </div>
       </div>
       <ProductTwo />

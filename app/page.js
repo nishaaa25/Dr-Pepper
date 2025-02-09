@@ -4,7 +4,7 @@ import ProductComponent from "@/components/ProductComponent";
 
 export default function Home() {
   return (
-    <div className="home w-screen">
+    <div className="home w-screen relative">
       <HeroComponent/>
       <AboutComponent/>
       <ProductComponent/>

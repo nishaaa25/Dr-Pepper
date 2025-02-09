@@ -5,7 +5,7 @@ export default function AboutComponent() {
   const numberOfImages = 10;
 
   return (
-    <div className="max-w-screen h-screen overflow-hidden relative bg-cream-400 flex justify-center items-center">
+    <div className="w-screen h-screen overflow-hidden relative bg-cream-400 flex justify-center items-center">
       <div className="transform rotate-[-14deg] scale-[1.2] translate-x-20">
         <div className="flex gap-6">
           {Array.from({ length: numberOfImages }).map((_, index) => (

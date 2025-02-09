@@ -4,7 +4,7 @@ import RightArrowIcon from "../IconComponents/RightArrowIcon";
 
 export default function ProductOne() {
   return (
-    <div className="container h-screen overflow-hidden bg-red-800 text-cream-400 flex pt-[132px] px-[40px]">
+    <div className="w-screen h-screen overflow-hidden bg-red-800 text-cream-400 flex pt-[132px] px-[40px] relative">
       <div className="relative w-full">
         <div className="flex flex-wrap gap-[10px] w-[51%] relative">
           <p className="heading2-creamtext">If </p>
